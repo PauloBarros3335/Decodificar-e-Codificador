@@ -7,7 +7,8 @@
 }
 
 body {
-   background: #caf9ff; 
+
+    background: linear-gradient(45deg, orange,rgb(208, 255, 0), transparent);
 }
 
 * {
@@ -159,6 +160,14 @@ color: var(--cortitulo);
     margin: 1em auto;
 }
 
+@media screen and (max-width: 480px) {
+    .container-input{
+        display: block;
+        width: auto;
+}
 
+.paragrafo-texarea {
+   margin: -22px 22px; 
+}
 
-
+}

@@ -160,14 +160,52 @@ color: var(--cortitulo);
     margin: 1em auto;
 }
 
-@media screen and (max-width: 480px) {
-    .container-input{
-        display: block;
-        width: auto;
-}
 
-.paragrafo-texarea {
-   margin: -22px 22px; 
-}
+@media screen and (max-width: 560px ) and ( min-width: 350px) {
+   
+    .hydrated {
+        text-align: center;
+       }
+    
+   body {
+    background:green;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto
+   }
 
+   .container-input {
+
+    display: block;
+    text-align: center;
+    padding: 0;
+
+   }
+
+   .paragrafo-texarea {
+    text-align: center;
+    padding: 0 40px 0px 0px;
+    margin: -47px;
+    font-size: 16px;
+    display: inline-block;
+    
+   }
+
+   #input-texto {
+    text-align: center;
+   }
+
+   .container-bnt {
+    text-align: center;
+   }
+   
+
+   .rodape {
+    text-align: center;
+    display: block;
+    width: 100%;
+   }
+
+   .icons {
+    text-align: center;
+   }
 }

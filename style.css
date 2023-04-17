@@ -190,9 +190,26 @@ color: var(--cortitulo);
     
    }
 
+   #output{
+    width: 94%;
+     margin: 0 auto;
+     margin: 20px;
+    }
+
    #input-texto {
     text-align: center;
    }
+
+   #output img {
+    max-width: 300px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 4px;
+    padding-left: 20px;
+    border-radius: 40px 40px 40px 40px;
+}
+  
 
    .container-bnt {
     text-align: center;

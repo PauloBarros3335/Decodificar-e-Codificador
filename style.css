@@ -200,6 +200,10 @@ color: var(--cortitulo);
     text-align: center;
    }
 
+   .paragrafo-texarea{
+    text-align: center;
+   }
+
    #output img {
     max-width: 300px;
     max-width: 300px;

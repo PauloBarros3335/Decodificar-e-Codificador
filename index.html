@@ -1,66 +1,75 @@
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <title>Decodificar e  Codificador</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/imagemCodificada.png" type="image/x-icon">
-</head>
-<body>
-
-  <main class="main-container"> 
-
-    <header class="cabecalho" >
-        <img src="assets/imagemCodificada.png" alt="logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Decodificar e Codificador</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/imagemCodificada.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main class="main-container">
+      <header class="cabecalho">
+        <img src="assets/imagemCodificada.png" alt="logo" />
         <h1>Mensagens Codificadas</h1>
-    </header>
+      </header>
 
-  
-
-    <div class="container-input">
-
+      <div class="container-input">
         <div class="input">
-            <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
-            <p class="paragrafo-texarea">ATENÇÃO: Apenas letras maiúculas e sem acento</p>
+          <textarea
+            id="input-texto"
+            placeholder="Digite seu texto aqui..."
+          ></textarea>
+          <p class="paragrafo-texarea">
+            ATENÇÃO: Apenas letras maiúculas e sem acento
+          </p>
         </div>
 
         <div id="output">
-            <img class="imgcod"  src="assets/imagemCodificada.png" alt="logo">
-            <h2>Sua mensagem aparecerá aqui</h2>
-            <span>Digite um texto que deseja criptografar ou descriptografar</span>
+          <img class="imgcod" src="assets/imagemCodificada.png" alt="logo" />
+          <h2>Sua mensagem aparecerá aqui</h2>
+          <span
+            >Digite um texto que deseja criptografar ou descriptografar</span
+          >
         </div>
+      </div>
 
-    </div>
-
-    
-    <div class="buttons">
+      <div class="buttons">
         <div class="container-bnt">
+          <button onclick="criptografar()" class="btn-criptografar">
+            criptografar
+          </button>
 
-            <button onclick="criptografar()" class="btn-criptografar">criptografar</button>
-
-            <button onclick=" descriptografar()" class="btn-descriptografar">descriptografar</button>
-            
+          <button onclick=" descriptografar()" class="btn-descriptografar">
+            descriptografar
+          </button>
         </div>
-    </div>
+      </div>
+    </main>
 
-  </main>
-
-  <footer class="rodape">
-
-    <div class="icons">
+    <footer class="rodape">
+      <div class="icons">
         <a href="http://"><ion-icon name="logo-youtube"></ion-icon></a>
 
         <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
 
         <a href=""><ion-icon name="logo-github"></ion-icon></a>
-        
-    </div>
-    <h3>desenvolvido por Paulo Barros</h3>
-  </footer>
+      </div>
+      <h3>desenvolvido por Paulo Barros</h3>
+    </footer>
 
     <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>

@@ -229,7 +229,7 @@ body {
  }
 
 
-@media screen and  (max-width: 393px) {
+@media screen and  (max-width: 360px) {
   .hydrated {
     text-align: center;
   }
